@@ -1,4 +1,4 @@
-package biblioteca.modelo;
+package biblioteca.modelo.libro;
 
 public interface LibroServicio {
     boolean prestar();

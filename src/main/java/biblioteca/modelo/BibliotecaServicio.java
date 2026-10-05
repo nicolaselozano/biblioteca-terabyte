@@ -1,5 +1,8 @@
 package biblioteca.modelo;
 
+import biblioteca.modelo.estadisticas.EstadisticasDTO;
+import biblioteca.modelo.libro.Libro;
+
 import java.util.List;
 
 public interface BibliotecaServicio {
@@ -9,6 +12,7 @@ public interface BibliotecaServicio {
     List<Libro> buscarParcial(String filtro);
     Resultado prestar(String titulo);
     Resultado devolver(String titulo);
-    boolean ordenarPorTitulo();
+    void ordenarPorTitulo();
     int tamano();
+    EstadisticasDTO estadisticas();
 }

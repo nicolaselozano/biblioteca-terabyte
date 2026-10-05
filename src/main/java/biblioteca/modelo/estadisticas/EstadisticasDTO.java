@@ -1,4 +1,4 @@
-package biblioteca.modelo;
+package biblioteca.modelo.estadisticas;
 
 public class EstadisticasDTO {
 

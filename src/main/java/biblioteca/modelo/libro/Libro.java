@@ -1,4 +1,4 @@
-package biblioteca.modelo;
+package biblioteca.modelo.libro;
 
 public class Libro {
 
@@ -34,6 +34,5 @@ public class Libro {
         }
         this.autor = autor.trim();
     }
-
 
 }
