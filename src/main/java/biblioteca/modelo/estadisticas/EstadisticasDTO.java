@@ -1,5 +1,7 @@
 package biblioteca.modelo.estadisticas;
 
+//Esto es algo a añadir al proyecto, un extra
+
 public class EstadisticasDTO {
 
     private final int totalTitulos;
